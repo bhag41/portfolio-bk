@@ -24,10 +24,10 @@
         e.preventDefault();
         var heading = $(this).attr('href');
         var scrollDistance = $(heading).offset().top;
-
-        $('html, body').animate({
-            scrollTop: scrollDistance + 'px'
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+//
+//        $('html, body').animate({
+//            scrollTop: scrollDistance + 'px'
+//        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
