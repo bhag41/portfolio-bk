@@ -936,3 +936,18 @@ display: inline-block;
 
 
 
+
+.projectlink {
+    color: white; 
+    background-color: gray; 
+    padding-left:5px; 
+    padding-right: 5px; 
+    padding-bottom: 5px; 
+    text-decoration: none; 
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.projectlink:hover{
+    color: white;
+    text-decoration: none;
+}
